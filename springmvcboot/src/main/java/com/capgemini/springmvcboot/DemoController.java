@@ -1,0 +1,37 @@
+package com.capgemini.springmvcboot;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import jakarta.servlet.http.HttpServletRequest;
+
+@Controller
+public class DemoController {
+	//for welcome.jsp
+	@GetMapping("/hello")
+	public String getHi() {
+		return "welcome";
+	}
+	
+	//create end point for register
+	//http://localhost:8080/register
+	@GetMapping("/register")
+	public String createAccount() { 
+		return "register";
+		
+	}
+	 
+	//read data from url
+	@GetMapping("/create-account")
+	public void register(HttpServletRequest request) {
+		String name = request.getParameter("name");
+		String email = request.getParameter("email");
+		String number = request.getParameter("number");
+		
+		System.out.println(name);
+		System.out.println(email);
+		System.out.println(number);
+		
+	}
+
+}
