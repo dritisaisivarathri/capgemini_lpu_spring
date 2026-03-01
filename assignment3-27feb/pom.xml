@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.capgemini</groupId>
-	<artifactId>assignment2-26feb</artifactId>
+	<artifactId>assignment3-27feb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>assignment2-26feb</name>
+	<name>assignment3-27feb</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -54,12 +54,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency> 
-		 <dependency>
-      <groupId>org.springdoc</groupId>
-      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-      <version>2.8.15</version>
-    </dependency>
+		</dependency>
 	</dependencies>
 
 	<build>
