@@ -1,4 +1,4 @@
-package com.capgemini.assignment6_ToDoList_04Mar;
+package com.capgemini.assignment6_ToDoList_04Mar.service;
 
 import java.io.IOException;
 import java.util.List;
@@ -6,6 +6,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
+
+import com.capgemini.assignment6_ToDoList_04Mar.entity.Task;
+import com.capgemini.assignment6_ToDoList_04Mar.repo.TaskRepository;
 
 @Service
 public class TaskServiceImpl implements TaskService {

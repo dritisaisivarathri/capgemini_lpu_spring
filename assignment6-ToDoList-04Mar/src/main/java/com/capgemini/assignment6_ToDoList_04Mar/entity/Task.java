@@ -1,4 +1,4 @@
-package com.capgemini.assignment6_ToDoList_04Mar;
+package com.capgemini.assignment6_ToDoList_04Mar.entity;
 
 import java.time.LocalDate;
 

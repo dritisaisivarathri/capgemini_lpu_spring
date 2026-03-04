@@ -1,8 +1,10 @@
-package com.capgemini.assignment6_ToDoList_04Mar;
+package com.capgemini.assignment6_ToDoList_04Mar.service;
 
 import java.util.List;
 
 import org.springframework.web.multipart.MultipartFile;
+
+import com.capgemini.assignment6_ToDoList_04Mar.entity.Task;
 
 public interface TaskService {
 	

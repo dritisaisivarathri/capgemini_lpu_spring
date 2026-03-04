@@ -1,4 +1,4 @@
-package com.capgemini.assignment6_ToDoList_04Mar;
+package com.capgemini.assignment6_ToDoList_04Mar.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
+
+import com.capgemini.assignment6_ToDoList_04Mar.entity.Task;
+import com.capgemini.assignment6_ToDoList_04Mar.service.TaskService;
 
 import jakarta.validation.Valid;
 
