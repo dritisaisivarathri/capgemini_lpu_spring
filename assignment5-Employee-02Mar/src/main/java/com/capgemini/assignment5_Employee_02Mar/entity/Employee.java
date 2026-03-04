@@ -1,4 +1,4 @@
-package com.capgemini.assignment5_Employee_02Mar;
+package com.capgemini.assignment5_Employee_02Mar.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

@@ -1,4 +1,4 @@
-package com.capgemini.assignment5_Employee_02Mar;
+package com.capgemini.assignment5_Employee_02Mar.controller;
 
 import java.util.List;
 
@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+
+import com.capgemini.assignment5_Employee_02Mar.entity.Employee;
+import com.capgemini.assignment5_Employee_02Mar.service.EmployeeService;
 
 import jakarta.servlet.http.HttpServletRequest;
 

@@ -1,4 +1,4 @@
-package com.capgemini.assignment5_Employee_02Mar;
+package com.capgemini.assignment5_Employee_02Mar.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,6 +6,9 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
 import org.springframework.web.servlet.ModelAndView;
+
+import com.capgemini.assignment5_Employee_02Mar.entity.Employee;
+import com.capgemini.assignment5_Employee_02Mar.repository.EmployeeJpaRepository;
 
 
 
